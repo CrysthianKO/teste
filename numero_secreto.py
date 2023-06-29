@@ -51,5 +51,6 @@ for rodada in range(1, total_rodadas + 1): # Loop até as rodadas acabarem
         else:
             print(f"O número {chute} está abaixo do número secreto.")
         total_pontos = total_pontos - abs(chute - numero_secreto) # Total de pontos menos os pontos perdidos
+input()
 
 print("Fim do jogo!")
