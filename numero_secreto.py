@@ -34,7 +34,7 @@ for rodada in range(1, total_rodadas + 1): # Loop até as rodadas acabarem
     
     print(f"""Rodada {rodada} de {total_rodadas}.  
           """)
-    chute = int(input(f"Digite um número entre 1 a 100: "))
+    chute = int(input("Digite um número entre 1 a 100: "))
     
     if (chute <= 0) or (chute > 100): # Caso o número não esteja dentro dos parâmetros
         print(f"\"{chute}\" não é um número válido!")
